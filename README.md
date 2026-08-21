@@ -2,6 +2,8 @@
 
 Landing firmy budowlanej (Rywałd). Treści na podstawie Facebooka.
 
+**Repo:** https://github.com/KacperBanko/kambau-website
+
 ## Start lokalnie
 
 ```bash
@@ -14,7 +16,7 @@ Otwórz [http://localhost:3000](http://localhost:3000).
 
 ## Zdjęcia z Facebooka
 
-Zobacz `public/ASSETS.md` — wrzuć pliki pod wskazane nazwy.
+Zobacz `public/ASSETS.md` — pliki już podpięte.
 
 ## Stack
 
