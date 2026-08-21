@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { site } from "@/content/site";
+import { asset } from "@/lib/asset";
 
 export function BrandMark() {
   const [logoOk, setLogoOk] = useState(true);
@@ -12,7 +13,7 @@ export function BrandMark() {
         // eslint-disable-next-line @next/next/no-img-element
         <img
           className="nav__logo"
-          src="/logo.png"
+          src={asset("/logo.png")}
           alt=""
           width={44}
           height={44}

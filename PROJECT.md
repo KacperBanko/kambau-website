@@ -5,8 +5,9 @@ Wizytówka firmy budowlanej na podstawie treści z Facebooka.
 ## Status
 
 - Projekt osobny (oddzielony od ecommerce-chatbot-saas)
-- Etap: **na GitHubie** — https://github.com/KacperBanko/kambau-website
-- Kolejny krok do „pokazania online”: deploy Vercel (GitHub ≠ żywa strona)
+- Etap: **GitHub Pages** — deploy z Actions przy push na `main`
+- URL (po deployu): https://kacperbanko.github.io/kambau-website/
+- Repo: https://github.com/KacperBanko/kambau-website
 - Fanpage: https://www.facebook.com/profile.php?id=61591842403321
 - Assets: `public/logo.png` + `public/images/*`
 

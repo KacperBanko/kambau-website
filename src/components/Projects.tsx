@@ -1,4 +1,5 @@
 import { projects } from "@/content/site";
+import { asset } from "@/lib/asset";
 
 export function Projects() {
   return (
@@ -14,7 +15,7 @@ export function Projects() {
               <div
                 className="project__visual has-image"
                 style={{
-                  backgroundImage: `linear-gradient(145deg, rgba(18,18,18,0.15), rgba(18,18,18,0.35)), url(${item.image})`,
+                  backgroundImage: `linear-gradient(145deg, rgba(18,18,18,0.15), rgba(18,18,18,0.35)), url(${asset(item.image)})`,
                 }}
                 role="img"
                 aria-label={item.title}

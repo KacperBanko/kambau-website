@@ -1,3 +1,5 @@
+import { asset } from "@/lib/asset";
+
 export function About() {
   return (
     <section className="section about" id="o-nas" aria-labelledby="about-title">
@@ -11,7 +13,7 @@ export function About() {
         </div>
         <div
           className="about__photo"
-          style={{ backgroundImage: "url(/images/extra-ekipa.png)" }}
+          style={{ backgroundImage: `url(${asset("/images/extra-ekipa.png")})` }}
           role="img"
           aria-label="Ekipa KamBau w trakcie prac"
         />

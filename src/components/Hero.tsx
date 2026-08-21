@@ -1,11 +1,12 @@
 import { site } from "@/content/site";
+import { asset } from "@/lib/asset";
 
 export function Hero() {
   return (
     <section className="hero" id="top" aria-label="Start">
       <div
         className="hero__media has-image"
-        style={{ ["--hero-image" as string]: "url(/images/hero.png)" }}
+        style={{ ["--hero-image" as string]: `url(${asset("/images/hero.png")})` }}
         aria-hidden
       />
       <div className="hero__grain" aria-hidden />

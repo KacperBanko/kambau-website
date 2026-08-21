@@ -2,7 +2,10 @@
 
 Landing firmy budowlanej (Rywałd). Treści na podstawie Facebooka.
 
-**Repo:** https://github.com/KacperBanko/kambau-website
+**Repo:** https://github.com/KacperBanko/kambau-website  
+**Live (GitHub Pages):** https://kacperbanko.github.io/kambau-website/
+
+Deploy: push na `main` → workflow `.github/workflows/deploy-pages.yml`.
 
 ## Start lokalnie
 
